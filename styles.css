@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(125deg, #2d2b2b, #113a34);
+    color: white;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(53, 93, 174);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+nav a:hover{
+    background-color: rgb(104, 137, 205);
+    color: rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+#project-container{
+    margin: auto;
+    max-width: 1000px;
+    width: 90%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.project-title{
+    margin: 20px auto;
+}
+
+#about {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.project-description {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-image-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#project-links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.thumbnail {
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+#contact-box {
+  text-align: center;
+  margin: 40px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#project-links button {
+    padding: 10px 20px;
+    background: rgb(68, 159, 129);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#project-links button:hover {
+    background: linear-gradient(165deg, blue, rgb(76, 76, 158));
+    color: gold;
+}
