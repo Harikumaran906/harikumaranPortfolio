@@ -117,3 +117,60 @@ nav a:hover{
     background: linear-gradient(165deg, blue, rgb(76, 76, 158));
     color: gold;
 }
+
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  #project-container {
+    width: 100%;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  .project-image-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #project-links {
+    align-items: center;
+    text-align: center;
+  }
+
+  #project-links button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #contact-box {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  #about{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+}
