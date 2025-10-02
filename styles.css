@@ -3,10 +3,33 @@
     margin: 0;
 }
 
-body{
-    background: linear-gradient(125deg, #2d2b2b, #113a34);
-    color: white;
+html {
+  scroll-behavior: smooth;
 }
+
+
+body{
+    background-color: #212121;
+    color: white;
+    font-family: "Michroma", sans-serif;
+}
+
+header {
+  padding: 30px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  z-index: 1000;
+  background: #212121;
+}
+
+#about,
+#projects,
+#contact {
+  scroll-margin-top: 200px;
+}
+
 
 h1, h2, h3{
     text-align: center;
@@ -43,7 +66,7 @@ nav a:hover{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
-#project-container{
+.container{
     margin: auto;
     max-width: 1000px;
     width: 90%;
@@ -118,6 +141,36 @@ nav a:hover{
     color: gold;
 }
 
+.skills-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill {
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill img {
+  width: 80px;   /* adjust size */
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -137,7 +190,7 @@ nav a:hover{
     text-align: center;
   }
 
-  #project-container {
+  .container {
     width: 100%;
     padding: 10px;
     border-width: 1px;
