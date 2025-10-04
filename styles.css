@@ -26,7 +26,8 @@ header {
 
 #about,
 #projects,
-#contact {
+#contact,
+#skills {
   scroll-margin-top: 200px;
 }
 
