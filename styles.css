@@ -7,7 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body{
     background-color: #212121;
     color: white;
@@ -35,6 +34,8 @@ header {
   border: 2px solid white;
   margin: 10px;
   padding: 20px;
+  width: 300px; 
+  border-radius: 12px;
 }
 
 h1, h2, h3{
@@ -92,11 +93,6 @@ nav a:hover{
   font-size: 18px;
 }
 
-.project-description {
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
 
 .project-image-box {
   display: flex;
@@ -161,7 +157,7 @@ nav a:hover{
 }
 
 .skill img {
-  width: 80px;   /* adjust size */
+  width: 80px;
   height: 80px;
   object-fit: contain;
   margin-bottom: 10px;
@@ -175,6 +171,15 @@ nav a:hover{
 .skill:hover {
   transform: scale(1.1);
 }
+
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 
 
 
