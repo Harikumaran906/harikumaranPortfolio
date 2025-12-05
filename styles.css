@@ -112,6 +112,8 @@ nav a:hover{
 
 .thumbnail {
   border-radius: 8px;
+  width: 100px;
+  height: 100px;
   transition: transform 0.3s;
 }
 
